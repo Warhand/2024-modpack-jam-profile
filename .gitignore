@@ -6,3 +6,9 @@ automodlist.txt.old
 /modernfix
 /ModTranslations
 /saves
+/data
+/downloads
+options.txt
+profile.json
+realms_persistence.json
+usercache.json
