@@ -18,7 +18,7 @@
 	"ticksBeforeFill": 2,
 	"drawDebugBoxes": false,
 	"renderType": "AUTO",
-	"wakeResolution": "SIXTEEN",
+	"wakeResolution": "EIGHT",
 	"wakeOpacity": 1.0,
 	"firstPersonSplashPlane": false,
 	"colorIntervals": [

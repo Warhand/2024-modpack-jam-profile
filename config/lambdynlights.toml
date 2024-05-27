@@ -22,38 +22,81 @@ mode = "fancy"
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				item = true
+				chicken = true
 				axolotl = true
-				turtle = true
-				fishing_bobber = true
-				salmon = true
+				bee = true
+				cow = true
 				tropical_fish = true
 				chest_minecart = true
 				slime = true
+				pig = true
+				pillager = true
+				allay = true
 				skeleton = true
+				iron_golem = true
 				bat = true
+				rabbit = true
+				cat = true
 				zombie = true
+				armor_stand = true
+				drowned = true
+				sheep = true
+				experience_orb = true
+				player = true
+				dolphin = true
+				pufferfish = true
+				item = true
+				trident = true
+				turtle = true
+				wolf = true
+				villager = true
+				fishing_bobber = true
+				salmon = true
+				zombie_villager = true
+				vindicator = true
+				horse = true
 				glow_squid = true
+				cod = true
+				witch = true
 				glow_item_frame = false
 				squid = true
-				drowned = true
 				spider = true
 				creeper = true
-				player = true
 				enderman = true
+				frog = true
+				polar_bear = true
+				stray = true
+				donkey = true
+				fox = true
+				item_frame = true
+				arrow = true
 
 			[light_sources.settings.entities.pescatore]
 				minigame_fishing_bobber = true
 				minigame_fish = true
 
 			[light_sources.settings.entities.hybrid-aquatic]
+				tiger_shark = true
 				ghost_crab = true
 				lightfoot_crab = true
 				barrel_jellyfish = true
+				whale_shark = true
 				hermit_crab = true
+				firefly_squid = true
 				flower_crab = true
 				horseshoe_crab = true
+				dungeness_crab = true
+				thresher_shark = true
+				yellowfin_tuna = true
+				opah = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
+
+			[light_sources.settings.entities.duckling]
+				duck = true
+
+			[light_sources.settings.entities.variantsandventures]
+				gelid = true
+				murk = true
 
