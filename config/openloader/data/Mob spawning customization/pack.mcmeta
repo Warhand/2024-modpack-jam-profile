@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A custom datapack for customizing mob spawns in biomes.",
+        "pack_format": 15
+    }
+}
