@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A custom datapack for removing the default behavior for fishing real, and replacing it with my own.",
+        "pack_format": 15
+    }
+}
