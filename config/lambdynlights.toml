@@ -4,99 +4,99 @@ mode = "fancy"
 
 # Light sources settings.
 [light_sources]
-	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
-	water_sensitive_check = true
-	# Enable block entities light source.
-	block_entities = true
 	# Enable entities light source.
 	entities = true
 	# Enable first-person player light source.
 	self = true
-	# TNT lighting mode. May be off, simple or fancy.
-	tnt = "off"
+	# Enable block entities light source.
+	block_entities = true
+	# Enables water-sensitive light sources check. This means that water-sensitive items will not light up when submerged in water.
+	water_sensitive_check = true
 	# Creeper lighting mode. May be off, simple or fancy.
 	creeper = "simple"
+	# TNT lighting mode. May be off, simple or fancy.
+	tnt = "off"
 
 	[light_sources.settings]
 
 		[light_sources.settings.entities]
 
 			[light_sources.settings.entities.minecraft]
-				chicken = true
-				axolotl = true
-				bee = true
-				cow = true
-				tropical_fish = true
-				chest_minecart = true
-				slime = true
-				pig = true
-				pillager = true
-				allay = true
-				skeleton = true
-				iron_golem = true
-				bat = true
-				rabbit = true
-				cat = true
-				zombie = true
-				armor_stand = true
-				drowned = true
-				sheep = true
-				experience_orb = true
-				player = true
-				dolphin = true
-				pufferfish = true
-				item = true
-				trident = true
-				turtle = true
-				wolf = true
-				villager = true
-				fishing_bobber = true
-				salmon = true
-				zombie_villager = true
-				vindicator = true
-				horse = true
-				glow_squid = true
-				cod = true
-				witch = true
 				glow_item_frame = false
+				player = true
+				cow = true
+				chest_minecart = true
+				sheep = true
+				chicken = true
+				horse = true
+				pig = true
+				villager = true
+				glow_squid = true
 				squid = true
-				spider = true
+				bat = true
 				creeper = true
+				zombie_villager = true
+				zombie = true
+				spider = true
+				skeleton = true
+				slime = true
 				enderman = true
+				witch = true
+				salmon = true
+				cat = true
+				tropical_fish = true
+				cod = true
+				item = true
 				frog = true
-				polar_bear = true
-				stray = true
-				donkey = true
-				fox = true
+				drowned = true
+				dolphin = true
+				bee = true
+				experience_orb = true
+				pufferfish = true
+				iron_golem = true
+				guardian = true
+				axolotl = true
+				elder_guardian = true
+				trident = true
 				item_frame = true
+				wolf = true
+				fox = true
+				stray = true
+				husk = true
+				fishing_bobber = true
 				arrow = true
-
-			[light_sources.settings.entities.pescatore]
-				minigame_fishing_bobber = true
-				minigame_fish = true
-
-			[light_sources.settings.entities.hybrid-aquatic]
-				tiger_shark = true
-				ghost_crab = true
-				lightfoot_crab = true
-				barrel_jellyfish = true
-				whale_shark = true
-				hermit_crab = true
-				firefly_squid = true
-				flower_crab = true
-				horseshoe_crab = true
-				dungeness_crab = true
-				thresher_shark = true
-				yellowfin_tuna = true
-				opah = true
+				turtle = true
+				parrot = true
+				ocelot = true
+				panda = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
 
+			[light_sources.settings.entities.variantsandventures]
+				murk = true
+				gelid = true
+				verdant = true
+				thicket = true
+
+			[light_sources.settings.entities.fishofthieves]
+				wildsplash = true
+				pondie = true
+				ancientscale = true
+				plentifin = true
+				splashtail = true
+				islehopper = true
+
 			[light_sources.settings.entities.duckling]
 				duck = true
 
-			[light_sources.settings.entities.variantsandventures]
-				gelid = true
-				murk = true
+			[light_sources.settings.entities.creeperoverhaul]
+				snowy_creeper = true
+				cave_creeper = true
+				ocean_creeper = true
+				swamp_creeper = true
+				bamboo_creeper = true
+
+			[light_sources.settings.entities.simplemusket]
+				bullet_entity = true
 

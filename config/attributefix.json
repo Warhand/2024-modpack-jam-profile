@@ -22,11 +22,22 @@
         "value": 1024
       }
     },
-    "reach-entity-attributes:reach": {
+    "mcdw:reach": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "mcdw:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,
@@ -99,17 +110,6 @@
         "value": 1024
       }
     },
-    "minecraft:generic.max_absorption": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 2048,
-        "value": 2048
-      }
-    },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
       "min": {
@@ -132,17 +132,6 @@
         "value": 2
       }
     },
-    "minecraft:generic.armor": {
-      "enabled": true,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 30,
-        "value": 1000000
-      }
-    },
     "minecraft:generic.attack_knockback": {
       "enabled": true,
       "min": {
@@ -154,14 +143,14 @@
         "value": 1000000
       }
     },
-    "minecraft:generic.armor_toughness": {
+    "minecraft:generic.armor": {
       "enabled": true,
       "min": {
         "default": 0,
         "value": 0
       },
       "max": {
-        "default": 20,
+        "default": 30,
         "value": 1000000
       }
     },
@@ -176,11 +165,33 @@
         "value": 1
       }
     },
-    "reach-entity-attributes:attack_range": {
+    "minecraft:generic.armor_toughness": {
+      "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 20,
+        "value": 1000000
+      }
+    },
+    "creeperoverhaul:reach_distance": {
       "enabled": false,
       "min": {
-        "default": -1024,
-        "value": -1024
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "creeperoverhaul:swim_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
       },
       "max": {
         "default": 1024,

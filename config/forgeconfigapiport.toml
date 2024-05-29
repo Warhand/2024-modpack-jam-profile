@@ -2,8 +2,6 @@
 #Forge restores the built-in default value for that option, but ignores a value that is set in a possibly present default config in 'defaultconfigs'.
 #This option fixes this behavior and checks for a value in a default config from 'defaultconfigs' before falling back to the built-in default.
 correctConfigValuesFromDefaultConfig = true
-#Disables File Watcher. Used to automatically update config if its file has been modified.
-disableConfigWatcher = false
 #Path to load default configs from, intended for setting global server configs for newly created worlds, but also works when recreating client and common configs.
 defaultConfigsPath = "defaultconfigs"
 #Config loading from a file config appears to occasionally fail and throw a com.electronwill.nightconfig.core.io.ParsingException: Not enough data available.
@@ -12,6 +10,5 @@ defaultConfigsPath = "defaultconfigs"
 recreateConfigsWhenParsingFails = true
 #Prevent server config files from being saved inside the current world directory. Instead, save them to the global config directory in .minecraft/config/.
 #This option effectively disables per world server configs, but helps a lot with avoiding user confusion.
-#Local server configs are still supported as they are on Forge when a server config file is manually copied to a world.
 forceGlobalServerConfigs = true
 
