@@ -69,6 +69,8 @@ mode = "fancy"
 				parrot = true
 				ocelot = true
 				panda = true
+				rabbit = true
+				boat = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
