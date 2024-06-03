@@ -14,7 +14,9 @@ campfire.addRecipe("cook_meat", <item:kubejs:meat>, <item:kubejs:raw_meat>, 1.0,
 
 //misc
 
-craftingTable.addShapeless("eye", <item:minecraft:ender_eye>, [<item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:ender_pearl>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>]);
+craftingTable.addShapeless("table", <item:minecraft:crafting_table>, [logs]);
+
+craftingTable.addShapeless("eye", <item:explorerscompass:explorerscompass>, [<item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:ender_pearl>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>]);
 
 craftingTable.addShapeless("crystal_block", <item:minecraft:prismarine> * 8, [crystals, crystals, crystals, crystals, crystals, crystals, crystals, crystals, crystals]);
 

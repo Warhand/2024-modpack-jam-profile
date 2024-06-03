@@ -2,25 +2,14 @@
 {
 	"content": {
 
-        "fisherman_log": {
-            "type": "item",
-            "content": "minecraft:oak_log",
-            "amount": {
-                "min": 1,
-                "max": 16
-            },
-            "unitWorth": 10,
-            "rarity": "COMMON"
-        },
-
         "fisherman_ingot": {
             "type": "item",
             "content": "minecraft:iron_ingot",
             "amount": {
                 "min": 1,
-                "max": 12
+                "max": 8
             },
-            "unitWorth": 20,
+            "unitWorth": 25,
             "rarity": "UNCOMMON"
         },
 
@@ -29,7 +18,7 @@
             "content": "kubejs:raw_meat",
             "amount": {
                 "min": 1,
-                "max": 8
+                "max": 6
             },
             "unitWorth": 50,
             "rarity": "UNCOMMON"
