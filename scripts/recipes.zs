@@ -43,6 +43,7 @@ craftingTable.addShapeless("raft_chest", <item:minecraft:bamboo_chest_raft>, [<i
 //tools
 
 craftingTable.addShapeless("battlestaff", <item:mcdw:staff_battlestaff>, [logs, logs, logs]);
+<tag:items:minecraft:swords>.add(<item:mcdw:staff_battlestaff>);
 
 craftingTable.addShapeless("axe", <item:mcdw:axe_axe>, [logs, logs, logs, ingot, ingot, ingot]);
 
