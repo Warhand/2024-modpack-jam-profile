@@ -8,8 +8,8 @@ unlockAll = true
 enableBounce = false
 
 [instantCraft]
-showButton = false
-enabled = true
+showButton = true
+enabled = false
 
 [alternativeRecipes]
 onHover = true

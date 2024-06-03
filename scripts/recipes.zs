@@ -4,6 +4,7 @@ var logs = <tag:items:minecraft:logs>;
 var ingot = <item:minecraft:iron_ingot>;
 var crystals = <item:minecraft:prismarine_crystals>;
 var strings = <item:minecraft:string>;
+val scute = <item:minecraft:scute>;
 
 recipes.removeAll();
 
@@ -15,11 +16,27 @@ campfire.addRecipe("cook_meat", <item:kubejs:meat>, <item:kubejs:raw_meat>, 1.0,
 
 craftingTable.addShapeless("eye", <item:minecraft:ender_eye>, [<item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>, <item:minecraft:ender_pearl>, <item:minecraft:prismarine_crystals>, <item:minecraft:prismarine_crystals>]);
 
-craftingTable.addShapeless("crystal_block", <item:minecraft:prismarine>, [crystals, crystals, crystals, crystals, crystals, crystals, crystals, crystals, crystals]);
+craftingTable.addShapeless("crystal_block", <item:minecraft:prismarine> * 8, [crystals, crystals, crystals, crystals, crystals, crystals, crystals, crystals, crystals]);
 
-craftingTable.addShapeless("crystal_dark", <item:minecraft:dark_prismarine>, [crystals, crystals, crystals, crystals, <item:minecraft:ink_sac>, crystals, crystals, crystals, crystals]);
+craftingTable.addShapeless("crystal_dark", <item:minecraft:dark_prismarine> * 8, [crystals, crystals, crystals, crystals, <item:minecraft:ink_sac>, crystals, crystals, crystals, crystals]);
 
-craftingTable.addShapeless("crystal_light", <item:minecraft:sea_lantern>, [crystals, crystals, crystals, crystals, <item:minecraft:ink_sac>, crystals, crystals, crystals, crystals]);
+craftingTable.addShapeless("crystal_light", <item:minecraft:sea_lantern> * 4, [crystals, crystals, crystals, crystals, <item:minecraft:ink_sac>, crystals, crystals, crystals, crystals]);
+
+craftingTable.addShapeless("turtle_hat", <item:minecraft:turtle_helmet>, [scute, scute, scute, scute, scute]);
+
+craftingTable.addShapeless("torch", <item:minecraft:torch> * 8, [logs, <item:minecraft:fire_charge>]);
+
+craftingTable.addShapeless("aquatic_torch", <item:aquatictorches:aquatic_torch> * 8, [logs, <item:minecraft:glow_ink_sac>]);
+
+craftingTable.addShapeless("campfire", <item:minecraft:campfire>, [logs, <item:minecraft:fire_charge>, logs, <item:minecraft:gravel>, <item:minecraft:gravel>, <item:minecraft:gravel>]);
+
+craftingTable.addShapeless("lantern", <item:minecraft:lantern> * 4, [ingot, <item:minecraft:fire_charge>]);
+
+craftingTable.addShapeless("chest", <item:minecraft:chest>, [logs, logs, logs, logs, ingot, logs, logs, logs, logs]);
+
+craftingTable.addShapeless("raft", <item:minecraft:bamboo_raft>, [<item:minecraft:bamboo>, <item:minecraft:bamboo>, <item:minecraft:bamboo>, <item:minecraft:vine>, <item:minecraft:vine>, <item:minecraft:vine>]);
+
+craftingTable.addShapeless("raft_chest", <item:minecraft:bamboo_chest_raft>, [<item:minecraft:bamboo_raft>, <item:minecraft:chest>]);
 
 //tools
 
@@ -32,6 +49,8 @@ craftingTable.addShapeless("pick", <item:mcdw:pick_mountaineer_pick>, [logs, log
 craftingTable.addShapeless("sword", <item:mcdw:sword_iron_sword_var>, [logs, logs, ingot, ingot]);
 
 craftingTable.addShapeless("rod", <item:minecraft:fishing_rod>, [logs, logs, logs, strings, strings]);
+
+craftingTable.addShapeless("shears", <item:minecraft:shears>, [ingot, ingot]);
 
 //armors
 //wood armor

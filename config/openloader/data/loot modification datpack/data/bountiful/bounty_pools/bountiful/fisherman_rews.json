@@ -2,14 +2,59 @@
 {
 	"content": {
 
-        "fisherman_rew_emerald": {
+        "fisherman_log": {
             "type": "item",
-            "content": "minecraft:emerald",
+            "content": "minecraft:oak_log",
             "amount": {
                 "min": 1,
                 "max": 16
             },
-            "unitWorth": 100
+            "unitWorth": 10,
+            "rarity": "COMMON"
+        },
+
+        "fisherman_ingot": {
+            "type": "item",
+            "content": "minecraft:iron_ingot",
+            "amount": {
+                "min": 1,
+                "max": 12
+            },
+            "unitWorth": 20,
+            "rarity": "UNCOMMON"
+        },
+
+        "fisherman_meat": {
+            "type": "item",
+            "content": "kubejs:raw_meat",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 50,
+            "rarity": "UNCOMMON"
+        },
+
+        "fisherman_glow": {
+            "type": "item",
+            "content": "minecraft:glow_ink_sac",
+            "amount": {
+                "min": 1,
+                "max": 4
+            },
+            "unitWorth": 75,
+            "rarity": "RARE"
+        },
+
+        "fisherman_fire": {
+            "type": "item",
+            "content": "minecraft:fire_charge",
+            "amount": {
+                "min": 1,
+                "max": 1
+            },
+            "unitWorth": 100,
+            "rarity": "EPIC"
         }
 
 	}
