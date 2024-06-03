@@ -71,6 +71,8 @@ mode = "fancy"
 				panda = true
 				rabbit = true
 				boat = true
+				snowball = true
+				area_effect_cloud = true
 
 			[light_sources.settings.entities.artifacts]
 				mimic = true
@@ -91,6 +93,7 @@ mode = "fancy"
 
 			[light_sources.settings.entities.duckling]
 				duck = true
+				quackling = true
 
 			[light_sources.settings.entities.creeperoverhaul]
 				snowy_creeper = true

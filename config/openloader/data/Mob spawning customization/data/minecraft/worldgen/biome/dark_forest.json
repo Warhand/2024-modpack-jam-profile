@@ -77,22 +77,30 @@
       "minecraft:spring_lava"
     ],
     [
+      "geophilic:dark_forest/rocks",
       "minecraft:glow_lichen",
-      "minecraft:dark_forest_vegetation",
-      "minecraft:forest_flowers",
+      "geophilic:dark_forest/forest_flowers",
+      "geophilic:dark_forest/trees",
       "minecraft:flower_default",
-      "minecraft:patch_grass_forest",
-      "minecraft:brown_mushroom_normal",
-      "minecraft:red_mushroom_normal",
+      "geophilic:dark_forest/tree_decorations",
+      "geophilic:dark_forest/stone_patches",
+      "geophilic:dark_forest/coarse_dirt_patches",
+      "geophilic:dark_forest/grass",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin"
     ],
     [
+      "geophilic:dark_forest/mushrooms",
       "minecraft:freeze_top_layer"
     ]
   ],
   "has_precipitation": true,
-  "spawn_costs": {},
+  "spawn_costs": {
+    "variantsandventures:verdant": {
+      "energy_budget": 0.15,
+			"charge": 0.7
+    }
+  },
   "spawners": {
     "ambient": [
       {
@@ -103,91 +111,17 @@
       }
     ],
     "axolotls": [],
-    "creature": [
-      {
-        "type": "minecraft:sheep",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 12
-      },
-      {
-        "type": "minecraft:pig",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:chicken",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:cow",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 8
-      }
-    ],
+    "creature": [],
     "misc": [],
     "monster": [
       {
-        "type": "minecraft:spider",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:zombie",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 95
-      },
-      {
-        "type": "minecraft:zombie_villager",
+        "type": "variantsandventures:verdant",
         "maxCount": 1,
         "minCount": 1,
-        "weight": 5
-      },
-      {
-        "type": "minecraft:skeleton",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:creeper",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:slime",
-        "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
-      },
-      {
-        "type": "minecraft:enderman",
-        "maxCount": 4,
-        "minCount": 1,
-        "weight": 10
-      },
-      {
-        "type": "minecraft:witch",
-        "maxCount": 1,
-        "minCount": 1,
-        "weight": 5
+        "weight": 1
       }
     ],
-    "underground_water_creature": [
-      {
-        "type": "minecraft:glow_squid",
-        "maxCount": 6,
-        "minCount": 4,
-        "weight": 10
-      }
-    ],
+    "underground_water_creature": [],
     "water_ambient": [],
     "water_creature": []
   },

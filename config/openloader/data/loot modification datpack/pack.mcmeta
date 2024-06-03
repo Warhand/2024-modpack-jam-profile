@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A custom datapack for customizing loot tables of chests and mobs.",
+        "pack_format": 15
+    }
+}

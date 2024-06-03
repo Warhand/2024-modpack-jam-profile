@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "mtf:chests/ocean_ruin_loot"
+        }
+      ],
+      "rolls": {
+        "type": "minecraft:uniform",
+        "max": 8.0,
+        "min": 2.0
+      }
+    }
+  ],
+  "random_sequence": "minecraft:chests/underwater_ruin_big"
+}

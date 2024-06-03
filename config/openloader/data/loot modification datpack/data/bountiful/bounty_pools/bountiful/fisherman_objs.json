@@ -1,0 +1,51 @@
+
+{
+	"content": {
+
+        "fisherman_obj_cod": {
+            "type": "item",
+            "content": "minecraft:cod",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 50,
+            "rarity": "COMMON"
+        },
+
+        "fisherman_obj_salmon": {
+            "type": "item",
+            "content": "minecraft:salmon",
+            "amount": {
+                "min": 1,
+                "max": 16
+            },
+            "unitWorth": 50,
+            "rarity": "COMMON"
+        },
+
+        "fisherman_obj_trop_fish": {
+            "type": "item",
+            "content": "minecraft:tropical_fish",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 100,
+            "rarity": "RARE"
+        },
+
+        "fisherman_obj_pufferfish": {
+            "type": "item",
+            "content": "minecraft:pufferfish",
+            "amount": {
+                "min": 1,
+                "max": 8
+            },
+            "unitWorth": 250,
+            "rarity": "EPIC"
+        }
+
+	}
+
+}

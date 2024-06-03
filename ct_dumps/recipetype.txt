@@ -1,0 +1,7 @@
+<recipetype:minecraft:blasting>
+<recipetype:minecraft:campfire_cooking>
+<recipetype:minecraft:crafting>
+<recipetype:minecraft:smelting>
+<recipetype:minecraft:smithing>
+<recipetype:minecraft:smoking>
+<recipetype:minecraft:stonecutting>

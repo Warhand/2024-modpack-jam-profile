@@ -1,0 +1,8 @@
+{
+    "input": {
+      "item": "minecraft:prismarine_crystals"
+    },
+    "result": {
+      "id": "minecraft:guardian"
+    }
+  }

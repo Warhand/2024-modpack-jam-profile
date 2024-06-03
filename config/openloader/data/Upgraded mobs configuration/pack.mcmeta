@@ -1,0 +1,6 @@
+{
+    "pack": {
+        "description": "A custom datapack for customizing which mobs are affected by Upgraded Mobs.",
+        "pack_format": 15
+    }
+}

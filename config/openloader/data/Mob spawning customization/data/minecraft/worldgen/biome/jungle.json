@@ -98,20 +98,38 @@
     ]
   ],
   "has_precipitation": true,
-  "spawn_costs": {},
+  "spawn_costs": {
+    "minecart:spider": {
+      "energy_budget": 0.15,
+			"charge": 0.7
+    }
+  },
   "spawners": {
     "ambient": [],
     "axolotls": [],
     "creature": [
       {
-        "type": "minecraft:creeper",
+        "type": "minecraft:parrot",
         "maxCount": 4,
-        "minCount": 4,
-        "weight": 100
+        "minCount": 2,
+        "weight": 15
+      },
+      {
+        "type": "minecraft:ocelot",
+        "maxCount": 2,
+        "minCount": 1,
+        "weight": 10
       }
     ],
     "misc": [],
-    "monster": [],
+    "monster": [
+      {
+        "type": "minecraft:spider",
+        "maxCount": 1,
+        "minCount": 1,
+        "weight": 1
+      }
+    ],
     "water_ambient": [],
     "water_creature": []
   },

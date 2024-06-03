@@ -1,0 +1,5 @@
+<fluid:minecraft:empty>
+<fluid:minecraft:flowing_lava>
+<fluid:minecraft:flowing_water>
+<fluid:minecraft:lava>
+<fluid:minecraft:water>

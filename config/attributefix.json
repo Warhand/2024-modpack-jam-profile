@@ -33,6 +33,17 @@
         "value": 1024
       }
     },
+    "reach-entity-attributes:reach": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
     "mcdw:attack_range": {
       "enabled": false,
       "min": {
@@ -99,6 +110,17 @@
         "value": 1000000
       }
     },
+    "tiered:generic.crit_chance": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
     "minecraft:generic.luck": {
       "enabled": true,
       "min": {
@@ -112,6 +134,17 @@
     },
     "minecraft:zombie.spawn_reinforcements": {
       "enabled": true,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
+      }
+    },
+    "tiered:generic.durable": {
+      "enabled": false,
       "min": {
         "default": 0,
         "value": 0
@@ -176,11 +209,33 @@
         "value": 1000000
       }
     },
+    "tiered:generic.range_attack_damage": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
+      }
+    },
     "creeperoverhaul:reach_distance": {
       "enabled": false,
       "min": {
         "default": 0,
         "value": 0
+      },
+      "max": {
+        "default": 1024,
+        "value": 1024
+      }
+    },
+    "reach-entity-attributes:attack_range": {
+      "enabled": false,
+      "min": {
+        "default": -1024,
+        "value": -1024
       },
       "max": {
         "default": 1024,
@@ -196,6 +251,17 @@
       "max": {
         "default": 1024,
         "value": 1024
+      }
+    },
+    "tiered:generic.dig_speed": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 2048,
+        "value": 2048
       }
     }
   }

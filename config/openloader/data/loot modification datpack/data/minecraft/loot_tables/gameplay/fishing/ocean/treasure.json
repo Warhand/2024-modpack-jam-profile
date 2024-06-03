@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:umbrella"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:helium_flamingo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:snorkel"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:flippers"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "bountiful:decree"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing/treasure"
+}
