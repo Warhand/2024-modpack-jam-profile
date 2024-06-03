@@ -15,23 +15,9 @@
             {
               "count": 1.0,
               "function": "minecraft:looting_enchant"
-            },
-            {
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                }
-              ],
-              "function": "minecraft:furnace_smelt"
             }
           ],
-          "name": "minecraft:cod"
+          "name": "kubejs:raw_meat"
         }
       ],
       "rolls": 1.0

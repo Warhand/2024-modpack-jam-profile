@@ -8,22 +8,8 @@
           "type": "minecraft:item",
           "functions": [
             {
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                }
-              ],
-              "function": "minecraft:furnace_smelt"
-            },
-            {
               "add": false,
-              "count": 2.0,
+              "count": 1.0,
               "function": "minecraft:set_count"
             },
             {
@@ -31,37 +17,7 @@
               "function": "minecraft:looting_enchant"
             }
           ],
-          "name": "minecraft:cod",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "conditions": [
-                {
-                  "condition": "minecraft:entity_properties",
-                  "entity": "this",
-                  "predicate": {
-                    "flags": {
-                      "is_on_fire": true
-                    }
-                  }
-                }
-              ],
-              "function": "minecraft:furnace_smelt"
-            },
-            {
-              "add": false,
-              "count": 2.0,
-              "function": "minecraft:set_count"
-            },
-            {
-              "count": 1.0,
-              "function": "minecraft:looting_enchant"
-            }
-          ],
-          "name": "minecraft:salmon"
+          "name": "kubejs:raw_meat"
         }
       ],
       "rolls": 1.0
