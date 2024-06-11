@@ -7,25 +7,25 @@
 			"entries": [
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/ocean/fishing/junk",
+					"name": "minecraft:gameplay/fishing/ocean/junk",
 					"weight": 10,
 					"quality": -2
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/ocean/fishing/treasure",
+					"name": "minecraft:gameplay/fishing/ocean/treasure",
 					"weight": 5,
 					"quality": 2
 				},
 				{
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/ocean/fishing/fish",
+					"name": "minecraft:gameplay/fishing/ocean/fish",
 					"weight": 85,
 					"quality": -1
 				},
                 {
 					"type": "minecraft:loot_table",
-					"name": "minecraft:gameplay/ocean/fishing/night",
+					"name": "minecraft:gameplay/fishing/ocean/night",
 					"weight": 60,
 					"quality": -1,
 					"conditions": [
